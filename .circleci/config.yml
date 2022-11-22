@@ -6,9 +6,9 @@ version: 2.1
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   build:
-    working_directory: ~/project
+    working_directory: ~/lab6-seg2105-master
     docker:
-      - image: circleci/android:api-33-x86-64
+      - image: circleci/android:api-33-alpha
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
