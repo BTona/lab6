@@ -8,7 +8,7 @@ jobs:
   build:
     working_directory: ~/lab6
     docker:
-      - image: circleci/android:2022.09
+      - image: cimg/android:2022.09
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
