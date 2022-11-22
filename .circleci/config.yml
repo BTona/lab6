@@ -6,9 +6,9 @@ version: 2.1
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   build:
-    working_directory: ~/lab6-seg2105-master
+    working_directory: ~/lab6
     docker:
-      - image: circleci/android:C:\Users\tona\AppData\Local\Android\Sdk
+      - image: circleci/android:2022.09
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
