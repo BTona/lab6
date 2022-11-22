@@ -8,7 +8,7 @@ jobs:
   build:
     working_directory: ~/lab6-seg2105-master
     docker:
-      - image: circleci/android:api-22-alpha
+      - image: circleci/android:C:\Users\tona\AppData\Local\Android\Sdk
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
